@@ -109,4 +109,33 @@ For starting up RViz with a configuration including the MoveIt! Motion Planning 
 
 위와 같은 ERROR가 발생합니다.
 
+
+
+(4) rrbot_pushing_object
+
+이 과제는 RRbot이 물체를 밀어내는 간단한 작업이다.
+```cd  ~ / catkin_ws```
+```catkin_make ``` 
+ROS 작업공간을 만들어줍니다.
+
+패키지가 내장되어, ```rrbot_pushing_object```를 사용하여 시뮬레이션 환경을 시작할 수 있습니다.
+```cd  ~ / catkin_ws / src / rrbot_pushing_object / rrbot_pushing_object_basic```
+```bash rrbotsimstart.sh```
+
+기본 스크립트 ```rrbotsimstart.sh``` 는 별도의 터미널에서 4 개의 다른 스크립트를 실행합니다.
+```rrbot_gazebo_launch.sh``` 파일에 나열된 객체 모델 이있는 Gazebo 시작
+```rrbot_ros_control.sh```  
+```rrbot_pushing_object.sh``` 
+```rrbot_camera_view.sh``` RR bot 팔, 테이블 및 판지 상자와 같은 고정 된 객체, 카메라,Bot 팔 컨트롤러 (ROS 관절 위치 컨트롤러)를 로드하기
+
+![스크린샷, 2021-06-03 15-53-55](https://user-images.githubusercontent.com/84005711/120608673-6beb9980-c48c-11eb-8ad8-6b237b1a2863.png)
+위와 같은 오류가 발생하여  rrbotsimstart.sh파일을 열어 -x부분을 모두 --로 수정하였습니다.
+![스크린샷, 2021-06-03 15-54-11](https://user-images.githubusercontent.com/84005711/120608722-786ff200-c48c-11eb-99a3-eab44b432dcb.png)
+
+그후 다시 실행시 
+![스크린샷, 2021-06-03 16-37-15](https://user-images.githubusercontent.com/84005711/120608986-b9680680-c48c-11eb-884a-44d965162015.png)
+![스크린샷, 2021-06-03 16-40-18](https://user-images.githubusercontent.com/84005711/120608991-ba993380-c48c-11eb-8f11-449d914601a9.png)
+
+실행시간이 오래걸리고, object에 table 
+
  
