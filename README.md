@@ -139,4 +139,5 @@ ROS 작업공간을 만들어줍니다.
 
 실행시간이 오래걸리고, object에 table이 없습니다.
 
- 
+ ![rrbot_실행_210608](https://user-images.githubusercontent.com/84005711/121134266-2b19c900-c86e-11eb-9d20-83c0d2d7238b.gif)
+
