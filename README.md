@@ -135,7 +135,8 @@ ROS 작업공간을 만들어줍니다.
 그후 다시 실행시 
 ![스크린샷, 2021-06-03 16-37-15](https://user-images.githubusercontent.com/84005711/120608986-b9680680-c48c-11eb-884a-44d965162015.png)
 ![스크린샷, 2021-06-03 16-40-18](https://user-images.githubusercontent.com/84005711/120608991-ba993380-c48c-11eb-8f11-449d914601a9.png)
+![스크린샷, 2021-06-08 15-03-35](https://user-images.githubusercontent.com/84005711/121131444-ca3cc180-c86a-11eb-98cd-0f747519052d.png)
 
-실행시간이 오래걸리고, object에 table 
+실행시간이 오래걸리고, object에 table이 없습니다.
 
  
