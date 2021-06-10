@@ -138,6 +138,8 @@ ROS 작업공간을 만들어줍니다.
 ![스크린샷, 2021-06-08 15-03-35](https://user-images.githubusercontent.com/84005711/121131444-ca3cc180-c86a-11eb-98cd-0f747519052d.png)
 
 실행시간이 오래걸리고, object에 table이 없습니다.
+이를 해결하기위해 git파일을 다시 git 해오고, ros를 재설치해보고 파일들을 다시 깔아보았지만 동일한 현상이 반복됩니다.
+error가 발생하지않아 어떤 방식으로 찾아봐야할지 잘 모
 
  ![rrbot_실행_210608](https://user-images.githubusercontent.com/84005711/121134266-2b19c900-c86e-11eb-9d20-83c0d2d7238b.gif)
 
